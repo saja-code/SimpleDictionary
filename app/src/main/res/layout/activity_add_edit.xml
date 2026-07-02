@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Word Details"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write the word and its meaning"
+        android:textSize="16sp"
+        android:textColor="@color/textGray"
+        android:layout_marginBottom="28dp" />
+
+    <EditText
+        android:id="@+id/etWord"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Enter Word"
+        android:textSize="17sp"
+        android:padding="14dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/edit_text_bg" />
+
+    <EditText
+        android:id="@+id/etMeaning"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:hint="Enter Meaning"
+        android:textSize="17sp"
+        android:gravity="top"
+        android:padding="14dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/edit_text_bg" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="SAVE"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
